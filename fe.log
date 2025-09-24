@@ -1,0 +1,241 @@
+
+> enhanced-fe@0.1.0 dev
+> next dev -p 4000
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonym GET / 200 in 24ms
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe/src/app'
+}
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/mac/Desktop/keephy/Enhanced/Enhanced_fe'
+[?25h
